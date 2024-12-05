@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "612693620543",
+    "project_id": "groovelt",
+    "storage_bucket": "groovelt.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:612693620543:android:6f9fc69f823b6b083ac58a",
+        "android_client_info": {
+          "package_name": "com.example.groovelt"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBUNJzSJJdqfKXHytaDoH2c07ewhRgpAis"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

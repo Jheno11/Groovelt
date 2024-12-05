@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background_rounded_top_white"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/top_separator"
+            android:layout_width="50dp"
+            android:layout_height="6dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="12dp"
+            app:cardBackgroundColor="@android:color/darker_gray"
+            app:cardCornerRadius="100dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_camera"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/top_separator"
+            android:layout_marginTop="12dp"
+            android:backgroundTint="@android:color/transparent"
+            android:text="@string/take_a_photo"
+            android:textAlignment="textStart"
+            android:textColor="@color/primaryGray"
+            app:cornerRadius="0dp" />
+
+        <View
+            android:id="@+id/mid_separator"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/btn_camera"
+            android:background="@android:color/darker_gray" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_gallery"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/mid_separator"
+            android:backgroundTint="@android:color/transparent"
+            android:text="@string/photo_from_gallery"
+            android:textAlignment="textStart"
+            android:textColor="@color/primaryGray"
+            app:cornerRadius="0dp" />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
